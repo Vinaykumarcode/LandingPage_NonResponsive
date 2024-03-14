@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-lg ">
+        <div class="flex justify-between items-center px-20 sm:px-6 lg:px-8 max-w-screen-2xl">
+            <a href="#home" class="flex item-center shrink-0"><img src="./advantage svg.svg" /></a>
+            <nav class="hidden md:justify-center md:items-center md:flex">
+                <a class="p-5">Home</a>
+                <a class="p-5">About us</a>
+                <a class="p-5">Services</a>
+                <a class="p-5">Blog</a>
+                <a class="p-5">FAQs</a>
+            </nav>
+            <a class="bg-green-600 text-white p-2 rounded-md" role="button">Contact us</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <div class="relative">
+                    <div class="absolute text-center inline-block animate__animated animate__backInLeft">
+                        <h1 class="mt-40 font-bold translate-x-60 text-5xl text-white leading-tight ">Maximize Your
+                            Online Potential with <br />
+                            Our Results-Driven Digital <br />
+                            Marketing Services</h1>
+                        <div class="translate-x-60 leading-normal mt-10 ">
+                            <p class="text-white">Comprehensive Solutions Tailored to Your Business Needs,
+                                <br />Achieving Real Growth and ROI
+                            </p>
+                        </div>
+                        <div class="translate-x-60 mt-5">
+                            <button
+                                class="px-7 py-3 mr-7 border bg-gradient-to-r from-blue-900 to-indigo-700 text-white">Our
+                                Services</button>
+                            <button class="px-7 py-3 border bg-white">Contact Us</button>
+                        </div>
+                    </div>
+                    <img class="w-full height" src="./new-image final(1).jpg" />
+                </div>
+            </div>
+
+        </section>
+
+        <section >
+            <div class="text-center">
+                <p class="p-5 text-xl font-bold">Join Us With</p>
+                <div class="flex justify-evenly px-7 items-center mt-8 wow animate__animated animate__fadeInUpBig ">
+                    <img class="media " src="./facebook-2.svg" />
+                    <img class="media-1 " src="./insta-2.svg" />
+                    <img class="media-2" src="./lnkdin-2.svg" />
+                    <img class="media-2" src="./tiktok.svg" />
+                    <img class="media-1" src="./google.svg" />
+                </div>
+
+            </div>
+        </section>
+        <section class="mt-10 animate">
+            <div class="flex justify-between p-10 ">
+                <div class="w-auto p-8 animate__animated animate__fadeInLeft animate__delay-3s">
+                    <h1 class="text-3xl font-bold p-3">About us</h1>
+                    <p>At Advantage Point Marketing, we are passionate about helping businesses thrive online. Our
+                        comprehensive digital marketing solutions are designed to help businesses of all sizes grow
+                        their online presence and achieve their business goals.</p>
+                    <p>
+                        Our team oe experienced digital marketers specializes in a range of services, including search
+                        engine optimizations (SEO), content marketing , social media advertising, email marketing and
+                        more . We use the latest tools and technologies to create custom strategies tailored to each
+                        client's unique needs and goals, ensuring maximum impact and ROI.
+                    </p>
+                    <br />
+                    <br />
+                    <button class="px-7 py-3 mr-7 border bg-gradient-to-r from-blue-900 to-indigo-700 text-white">Read
+                        More</button>
+                </div>
+
+                <div class="animate__animated animate__fadeInRight animate__delay-3s">
+                    <img class="img2" src="./img2.png" />
+                    <img src="./XMLID_1_.png" />
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){ 
+            new WOW().init();
+        })
+    </script>
+
+    <script src="js/wow.min.js"></script>
+</body>
+
+</html>
